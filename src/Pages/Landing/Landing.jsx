@@ -20,9 +20,9 @@ function Landing() {
     <>
       <div className='bg-gradient-to-r from-blue-400 to-purple-500'>
         <header>
-          <img src="./src/assets/Logo.png" alt="Skill swap logo" id='Logopng' />
+          <img src="https://res.cloudinary.com/dmcpxtojg/image/upload/f_auto,q_auto/Logo_rvfeim" alt="Skill swap logo" id='Logopng' />
           <div className='header'>
-            <img src="./src/assets/user.png" alt="user" id='user' />
+            <img src="https://res.cloudinary.com/dmcpxtojg/image/upload/v1774762635/user_tqhugz.png" alt="user" id='user' />
             <Link to="/Login"><h5>Login/Signup</h5></Link>
             <h1></h1>
           </div>
