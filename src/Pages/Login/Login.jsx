@@ -2,6 +2,7 @@ import React, { useState, useEffect, useContext } from 'react';
 import axios from 'axios';
 import { DataContext } from '../Landing/DataContext';
 import { Link, useNavigate } from 'react-router-dom';
+import Loading from '../Loading';
 
 
 function Login() {
@@ -26,8 +27,12 @@ function Login() {
       navigate("/");
     })
     .catch((res)=>{
+      setload(false);
       alert("User Not Fond")
     })
+  }
+  if(loading){
+    return <Loading/>
   }
   return (
     <>
